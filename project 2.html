@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online food services in India|My online meal.com</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+}
+#navbar{
+    display: flex;
+    align-items: center; 
+    position: sticky;
+    top: 0px;
+}
+
+ul li a:hover{
+    background-color: red;
+   
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#logo img{
+    height: 59px;
+    margin: 5px 10px;
+}
+
+
+
+#navbar ul{
+    display: flex;
+} 
+#navbar ul li{
+   
+    list-style: none ;
+    font-size: large;
+}
+#navbar ul li a{
+    color: white;
+    display:  block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/tasty-pizza-near-ingredients_23-2147772080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height:353px;
+    top: 0px;
+    left: 0px;
+    
+}
+#home p{
+    color:white;
+
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-size: 3.8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.h {
+    font-size: large;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}    
+#services .box{
+    border: 2px solid brown;
+    padding: 3px;
+    margin: 2px 4px;
+    border-radius: 2px;
+    background: white;
+    width: 500px;
+    height: 400px;
+    background-color:pink;
+    opacity: 0.9;
+
+}
+#services .box img{ 
+    height: 300px;
+    width: 300px;
+    margin: 55px;
+    margin: auto;
+    display: block;
+  
+    
+}
+    
+h1{
+    font-size: 3.8rem;
+    padding:0%;
+    text-align: center;
+   
+}
+h2{
+    text-align: center;
+    padding: 25px;
+    font-size: 34px;
+   
+}
+.h-secondary{
+    font-size: 132rem;
+ 
+    padding: 10%;
+} 
+.center{
+    font-size: 3.8px;
+    padding: 12%;
+}
+#client-section{
+    height: 340px;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 120px;
+}
+.client-item{
+    padding: 35px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("https://media.gettyimages.com/id/1284690715/photo/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors-isolated-on-white.jpg?s=612x612&w=gi&k=20&c=UnBnjSIDwCW-ooRRSIk2Sm-V2AyMIgXmFpKwnlg9wpc=");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height:253px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url("https://media.istockphoto.com/id/1049658692/photo/contact-us.jpg?s=612x612&w=0&k=20&c=hFoLqy8mHjvdPh2HFZQ9pRcO-zzEB9HIENJ7ub2sj80=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 553px;
+    width: 100%;
+    opacity: 0.3;
+    margin-top: 5px;
+    padding: 30px;
+
+    
+}
+.hii{
+    position:f
+    
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+    text-align: 34px;
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+#contact-box form{
+    width: 45%;
+    margin: 55px;
+    font-size: 45px;
+}
+#contact-box label{
+    font-size: 1.5rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+    </style>
+   
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/63bec2840aae54534596e928_Screen%20Shot%202023-01-11%20at%208.20.24%20PM.png" alt="My online meal.com">
+        </div>
+        <ul>
+            <li class="list"><a href="#home">Home</a></li>
+            <li class="list"><a href="#services">Services</a></li>
+            <li class="list"><a href="#client-section">Our Clients</a></li>
+            <li class="list"><a href="#contact">contact</a></li>
+         </ul>   
+            
+    </nav>
+    <section id="home">
+        <h1 class="h">Welcome to our foodie store</h1>
+        <p>We have started an online food store named "Foodie store" with the motive to provide best food at your home</p>
+        <button class="btn">Order now</button> 
+        
+        
+    </section>
+    <section id="services-container">
+        <h1 ><b><centre>Our Services</centre></b></h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg" alt="">
+                <h2 ><b><u>Food catering</u></b></h2>
+                
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/tasty-top-view-sliced-pizza-italian-traditional-round-pizza_90220-1359.jpg?w=2000" alt="">
+                <h2 ><b><u>Bulk Ordering</u></b></h2>
+                
+            </div>
+            <div class="box">
+                <img src="https://png.pngtree.com/png-clipart/20230106/original/pngtree-delivery-boy-with-food-png-image_8876808.png" alt="">
+                <h2><b><u>Food Delivery</u></b></h2>
+                
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 >Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png" alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/588px-Google_%22G%22_Logo.svg.png" alt="Our Client">
+            </div>
+          
+            <div class="client-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Skype_logo.svg/2560px-Skype_logo.svg.png" alt="Our Client">
+            </div>
+           
+        </div>  
+        <section id="contact">
+            <h1 id="hii">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+       
+</body>
+</html>
